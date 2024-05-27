@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop{
+    height: 100px;
+    width: 20px;
+    background-color: black;
+}
+#container{
+    background-color: black;
+}
+.red {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: red;
+}
+.orange {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: orange;
+}
+.green {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: green;
+}
+.selected{
+    box-shadow: 0 0 50px white ;
+    filter: brightness(2);
+}
